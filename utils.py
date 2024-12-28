@@ -1,6 +1,5 @@
 from langchain_openai import ChatOpenAI
 from langchain.chains import ConversationChain
-from langchain.memory import ConversationBufferMemory
 
 
 def get_chat_response(prompt,memory,api_key):
